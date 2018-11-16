@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "taxi-workshop",
+            "type": "ecl",
+            "request": "launch",
+            "mode": "submit",
+            "workspace": "${workspaceRoot}",
+            "program": "${file}",
+            "protocol": "http",
+            "serverAddress": "18.188.145.196",
+            "port": 8010,
+            "rejectUnauthorized": false,
+            "targetCluster": "thor",
+            "eclccPath": "${config:ecl.eclccPath}",
+            "eclccArgs": [],
+            "includeFolders": "${config:ecl.includeFolders}",
+            "legacyMode": "${config:ecl.legacyMode}",
+            "resultLimit": 100,
+            "user": "achala",
+            "password": ""
+        }
+    ]
+}
+
