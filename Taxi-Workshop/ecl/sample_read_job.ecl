@@ -22,15 +22,15 @@
 
 
 //Use a RECORD definition to read 
-taxi_layout := RECORD
-    STRING vendor_id;
-    STRING tpep_pickup_datetime;
-END;
+// taxi_layout := RECORD
+//     STRING vendor_id;
+//     STRING tpep_pickup_datetime;
+// END;
 
-taxi_ds := DATASET('~achala::taxi_tutorial::in::sample_yellow_tripdata.csv',
-     taxi_layout, CSV(HEADING(1)));
+// taxi_ds := DATASET('~achala::taxi_tutorial::in::sample_yellow_tripdata.csv',
+//      taxi_layout, CSV(HEADING(1)));
 
-OUTPUT(taxi_ds);
+// OUTPUT(taxi_ds);
 
 //Use MODULE to encapsulate code
 taxi := MODULE 
