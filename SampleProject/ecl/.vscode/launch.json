@@ -1,0 +1,26 @@
+{
+   
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "play",
+            "type": "ecl",
+            "request": "launch",
+            "mode": "submit",
+            "workspace": "${workspaceRoot}",
+            "program": "${file}",
+            "protocol": "http",
+            "serverAddress": "play.hpccsystems.com",
+            "port": 8010,
+            "rejectUnauthorized": false,
+            "targetCluster": "thor",
+            "eclccPath": "${config:ecl.eclccPath}",
+            "eclccArgs": [],
+            "includeFolders": "${config:ecl.includeFolders}",
+            "legacyMode": "${config:ecl.legacyMode}",
+            "resultLimit": 100,
+            "user": "yourname",
+            "password": ""
+        }
+    ]
+}
