@@ -18,7 +18,7 @@ taxi_clean_ds := PROJECT
     );
 
 OUTPUT(taxi_clean_ds,, schema.taxi_clean.file_path, 
- NAMED('after_clean'),THOR, COMPRESSED, OVERWRITE);
+    NAMED('after_clean'),THOR, COMPRESSED, OVERWRITE);
 
 
 

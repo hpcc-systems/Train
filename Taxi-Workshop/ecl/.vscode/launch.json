@@ -8,7 +8,7 @@
             "workspace": "${workspaceRoot}",
             "program": "${file}",
             "protocol": "http",
-            "serverAddress": "18.188.145.196",
+            "serverAddress": "play.hpccsystems.com",
             "port": 8010,
             "rejectUnauthorized": false,
             "targetCluster": "thor",
@@ -17,7 +17,7 @@
             "includeFolders": "${config:ecl.includeFolders}",
             "legacyMode": "${config:ecl.legacyMode}",
             "resultLimit": 100,
-            "user": "achala",
+            "user": "demo_user",
             "password": ""
         }
     ]
