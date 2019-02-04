@@ -53,4 +53,4 @@ END;
 //Validate raw data
 Sample_weather_valid := Validation(d);
 //OUTPUT validated data
-OUTPUT(Sample_weather_valid,NAMED('Sample_Validate'));
+OUTPUT(CHOOSEN(Sample_weather_valid,100),NAMED('Sample_Validate'));

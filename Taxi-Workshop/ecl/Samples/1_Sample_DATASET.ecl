@@ -26,4 +26,4 @@ path := '~yellow_tripdata_2016-06.csv';
 //Read the sample data
 Sample_raw := DATASET(path, layout, CSV(HEADING(1)));
 //OUTPUT the sample data
-OUTPUT(Sample_raw, NAMED('Sample_Dataset'));
+OUTPUT(CHOOSEN(Sample_raw,100), NAMED('Sample_Dataset'));

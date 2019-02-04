@@ -53,4 +53,4 @@ Sample_join_weather :=  JOIN
 //Add ID for each record
 ML_Core.AppendSeqid(sample_join_weather, id, sw);
 //OUTPUT the combined dataset
-OUTPUT(sw,NAMED('Sample_JOIN'));
+OUTPUT(CHOOSEN(sw,100),NAMED('Sample_JOIN'));
