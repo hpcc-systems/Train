@@ -3,5 +3,12 @@ Taxi-Workshop/.DS_Store
 Taxi-Workshop/Taxi-Workshop
 Taxi-Workshop/data/.DS_Store
 Taxi-Workshop/doc/~$workshop.pptx
-Taxi-Workshop/ecl/eclcc.log
 SampleProject/ecl/eclcc.log
+Taxi-Workshop/ecl/ML_Core/*
+Taxi-Workshop/ecl/LogisticRegression/*
+Taxi-Workshop/ecl/.vscode/*
+Taxi-Workshop/ecl/.eclcc
+Taxi-Workshop/ecl/Files.ecl
+Taxi-Workshop/ecl/eclcc.log
+eclcc.log
+./eclcc/*
