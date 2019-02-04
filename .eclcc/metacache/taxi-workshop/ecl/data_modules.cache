@@ -1,0 +1,8 @@
+<Cache hash="2211282942984338090">
+<Attr module="Taxi-Workshop.ecl" name="data_modules">
+ <Depend module="_versions.ML_Core.V3_2_0.ML_Core" name="types"/>
+ <Depend module="std" name="date"/>
+</Attr>
+<Simplified>
+</Simplified>
+</Cache>
