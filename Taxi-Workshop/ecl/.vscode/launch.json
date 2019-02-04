@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "taxi-workshop",
+            "name": "playground",
             "type": "ecl",
             "request": "launch",
             "mode": "submit",
@@ -18,6 +18,26 @@
             "legacyMode": "${config:ecl.legacyMode}",
             "resultLimit": 100,
             "user": "demo_user",
+            "password": ""
+        },
+        {
+            "name": "taxi-workshop",
+            "type": "ecl",
+            "request": "launch",
+            "mode": "submit",
+            "workspace": "${workspaceRoot}",
+            "program": "${file}",
+            "protocol": "http",
+            "serverAddress": "18.224.252.139",
+            "port": 8010,
+            "rejectUnauthorized": false,
+            "targetCluster": "thor",
+            "eclccPath": "${config:ecl.eclccPath}",
+            "eclccArgs": [],
+            "includeFolders": "${config:ecl.includeFolders}",
+            "legacyMode": "${config:ecl.legacyMode}",
+            "resultLimit": 100,
+            "user": "lxu",
             "password": ""
         }
     ]
